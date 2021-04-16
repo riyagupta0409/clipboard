@@ -46,7 +46,6 @@ class database :
 
 		# if given value is not integer 
 		if type(id_) != int :
-			print("Enter an integer Value ")
 			return 0
 
 		# to check if given id exists or not 
@@ -57,7 +56,6 @@ class database :
 
 		# # if given id doesn't exist
 		if row == []:
-			print("Item id doesn't exist !! ")
 			return 0 
 
 		return 1
